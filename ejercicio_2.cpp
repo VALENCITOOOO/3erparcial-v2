@@ -1,17 +1,17 @@
 #include <iostream>
-#include <vector> //utilizo vectores
+#include <vector> 
 #include <algorithm>
 
 using namespace std;
 
 int main() {
 
-  // Declaración de variables
-  vector<int> numeros(5); // Vector para almacenar los 5 números
+  
+  vector<int> numeros(5); 
   int menor, mayor;
   bool hayRepetidos = false;
 
-  // para ingresar los 5 numeros
+ 
   
   cout << "Ingrese 5 números: " << endl;
   for (int i = 0; i < 5; i++) {
@@ -36,7 +36,7 @@ int main() {
     }
   }
 
-  // decir cual es menor y mayor
+  
   cout << "El número menor es " << menor << endl;
   cout << "El número mayor es " << mayor << endl;
 
